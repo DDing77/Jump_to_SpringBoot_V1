@@ -1,5 +1,6 @@
-package com.mysite.sbb.entitiy;
+package com.mysite.sbb.answer.entitiy;
 
+import com.mysite.sbb.question.entitiy.Question;
 import lombok.Getter;
 import lombok.Setter;
 
