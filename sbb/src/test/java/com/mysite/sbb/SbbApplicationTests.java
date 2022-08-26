@@ -3,10 +3,10 @@ package com.mysite.sbb;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import com.mysite.sbb.entitiy.Answer;
-import com.mysite.sbb.entitiy.Question;
-import com.mysite.sbb.repository.AnswerRepository;
-import com.mysite.sbb.repository.QuestionRepository;
+import com.mysite.sbb.answer.entitiy.Answer;
+import com.mysite.sbb.question.entitiy.Question;
+import com.mysite.sbb.answer.repository.AnswerRepository;
+import com.mysite.sbb.question.repository.QuestionRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
